@@ -14,7 +14,7 @@ target_compile_definitions(boost_bindings
 install(DIRECTORY
     boost
   DESTINATION
-    include/boost
+    include
 )
 
 install(TARGETS
