@@ -27,7 +27,3 @@ install(EXPORT library_targets
   NAMESPACE ubitrack_boost_bindings::
   DESTINATION lib/cmake/ubitrack_boost_bindings
 )
- 
-install(FILES ubitrack_boost_bindings-config.cmake
-  DESTINATION lib/cmake/ubitrack_boost_bindings
-)
