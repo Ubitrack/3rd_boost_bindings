@@ -12,7 +12,7 @@ target_compile_definitions(boost_bindings
 # install and export the library
  
 install(DIRECTORY
-    boost
+    include/boost
   DESTINATION
     include
 )
