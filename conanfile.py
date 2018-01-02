@@ -14,6 +14,7 @@ class UbitrackboostbindingsConan(ConanFile):
 
     def package(self):
         self.copy("*.h")
+        self.copy("*.hpp")
 
     def package_id(self):
         self.info.header_only()
